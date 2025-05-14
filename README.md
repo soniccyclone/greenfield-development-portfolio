@@ -20,3 +20,8 @@ Some specifics on how we ensure the ENTIRE tech stack can be run on a local deve
 - Debugging k8s pods (so is this just single replicas for all local manifests? I am fine letting the quality gate integration tests actually do a multiple replica test. And you should really only need that for a quick load test thing)
 - Auto running test cluster (just have a test cluster manifest that is a quality gate on PRs and have a lighter weight version of that which is constantly running in the background on the developer's machine. So like, single replica and probably not running any load balancer type integration tests.)
 - Ceph for local object storage (minio license is weird and scary)
+
+## Code Standards
+Everything Uncle Bob says, even the stuff I don't agree with since I'm not gonna force everyone around me to learn lisp and functional programming.
+
+But really the most important guiding principle are the SOLID principles. And a requirement for test automation and release automation to be a part of all MVPs.
