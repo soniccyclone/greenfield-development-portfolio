@@ -25,3 +25,5 @@ Some specifics on how we ensure the ENTIRE tech stack can be run on a local deve
 Everything Uncle Bob says, even the stuff I don't agree with since I'm not gonna force everyone around me to learn lisp and functional programming.
 
 But really the most important guiding principle are the SOLID principles. And a requirement for test automation and release automation to be a part of all MVPs.
+
+All projects must have a readme.md explaining themselves and an architecture.md doc that explains how to navigate the repository and where you should put most kinds of files when you need to create one.
