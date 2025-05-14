@@ -7,7 +7,7 @@ Generally the tech stack will be:
 - Go
 - Make (make targets help maintain living source of truth documentation on running the system)
 - Vitess/Citus/Yuggabyte (need to experiment with these and choose one, citus seems like it would have the longest lasting payoff so long as it being a plugin really does make it more flexible than the other DB engine "compatible" options)
-- Apache Drill/Spark/Flink (need to choose between which of these MPP libraries I think would want to use in most cases. Mostly would like to be able to abstract away all MPP work into SQL queries so that other parts of the system are simply orchestrating the MPP work)
+- Apache Drill/Spark/Flink (need to choose between which of these MPP libraries I would want to use in most cases. Mostly would like to be able to abstract away all MPP work into SQL queries so that other parts of the system are simply orchestrating the MPP work)
 - k8s (duh)
 - S3
 - Typescript React? (I need to have a more solid opinion on front-end technologies. My preference is for vanilla web technologies, maybe even HTMX, but this is a professional plan that needs to ensure hiring is easy as well)
