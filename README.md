@@ -11,7 +11,7 @@ Generally the tech stack will be:
 - k8s (duh)
 - S3
 - Typescript React? (I need to have a more solid opinion on front-end technologies. My preference is for vanilla web technologies, maybe even HTMX, but this is a professional plan that needs to ensure hiring is easy as well)
-- Kafka (event sourcing fits a whole lot of problems and learning how to setup kafka properly once on k8s using strimzi will pay dividens. And all major cloud providers provide a managed kafka instance. This may also remove the need for streaming based MPP like Flink and sort of Spark and would mean just having the ability to run MPP queries one time is all we need in which case Drill would be simplest)
+- Kafka (event sourcing fits a whole lot of problems and learning how to setup kafka properly once on k8s using strimzi will pay dividends. And all major cloud providers provide a managed kafka instance. This may also remove the need for streaming based MPP like Flink and sort of Spark and would mean just having the ability to run MPP queries one time is all we need in which case Drill would be simplest)
 ### Dev environment
 Some specifics on how we ensure the ENTIRE tech stack can be run on a local developer machine:
 - Everything must be developed inside of docker containers (lots of people still develop on their machine and just build into containers)
